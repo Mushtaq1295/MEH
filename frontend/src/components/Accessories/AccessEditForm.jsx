@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useState } from "react";
 
-const AddForm = () => {
+const EditForm = () => {
     const [category, setCategory] = useState("");
     const [engineBrand, setEngineBrand] = useState("");
   return (
@@ -12,7 +12,7 @@ const AddForm = () => {
         <div className="w-full bg-white rounded-lg shadow dark:border sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-3 space-y-4 sm:p-8">
             <h1 className="text-xl font-bold tracking-tight text-gray-900 md:text-2xl dark:text-white">
-              Add Item
+              Edit Item
             </h1>
             <form className="space-y-4" 
                 >
@@ -117,7 +117,7 @@ const AddForm = () => {
               type="submit"
               className="w-full text-white bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 transition-all duration-300 ease-in-out focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-xl text-base px-6 py-3 text-center shadow-lg transform hover:scale-105 cursor-pointer"
             >
-              Add
+              Update
             </button>
             </form>
           </div>
@@ -130,4 +130,4 @@ const AddForm = () => {
 }
 
 
-export default AddForm
+export default EditForm

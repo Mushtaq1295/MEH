@@ -1,5 +1,5 @@
 import React from 'react'
-import AccessCard from '../AccessCard'
+import AccessCard from '../Accessories/AccessCard'
 
 const Accessories = () => {
   return (
